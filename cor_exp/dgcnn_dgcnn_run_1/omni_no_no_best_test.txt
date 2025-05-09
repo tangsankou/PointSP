@@ -1,0 +1,2 @@
+Model: dgcnn DataSet: OmniMN40 use_upsample: no sample_type: no Acc: 0.40331491712707185 Class Acc: 0.38043460511964167
+Model: dgcnn DataSet: OmniMN40 use_upsample: no sample_type: no Acc: 0.3812154696132597 Class Acc: nan

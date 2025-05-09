@@ -1,0 +1,1 @@
+Model: pct use_upsample: no sample_type: fps Corruption: scale Severity: 0 Acc: 0.9141004862236629 Class Acc: 0.8796686046511628

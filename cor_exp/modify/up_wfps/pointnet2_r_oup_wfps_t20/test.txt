@@ -1,0 +1,2 @@
+Model: pointnet2 DataSet: modelnet40_dgcnn Acc: 0.9124797406807131 Class Acc: 0.8846279069767442
+Model: pointnet2 DataSet: modelnet40_dgcnn Acc: 0.9120745542949756 Class Acc: 0.8813779069767442

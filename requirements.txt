@@ -1,0 +1,12 @@
+git+https://github.com/imankgoyal/etw_pytorch_utils.git
+enum34
+future
+h5py==2.10.0
+progressbar2==3.20.0
+tensorboardX==2.0
+torch==2.0.1 
+torchvision==0.15.2 
+torchaudio==2.0.2
+yacs==0.1.6
+open3d==0.13.0
+Ninja==1.11.1

@@ -1,0 +1,37 @@
+2024-04-16 01:56:14,332 - Model - INFO - PARAMETER ...
+2024-04-16 01:56:14,332 - Model - INFO - Namespace(batch_size=24, dataset='mnc', dropout=0.5, gpu='2', log_dir='rrwupfps6464_003', model_path='', num_category=40, num_points=1024, num_votes=3, step_size=0.02, test_batch_size=8, upsample_pc='rweighted', use_cpu=False, use_normals=False, use_uniform_sample=False)
+2024-04-16 01:56:17,023 - Model - INFO - Load dataset ...
+2024-04-16 01:56:37,748 - Model - INFO - data_scale_0: Test Instance Accuracy: 0.902350, Class Accuracy: 0.857506
+2024-04-16 01:56:55,153 - Model - INFO - data_scale_1: Test Instance Accuracy: 0.899514, Class Accuracy: 0.850680
+2024-04-16 01:57:27,480 - Model - INFO - data_scale_2: Test Instance Accuracy: 0.899919, Class Accuracy: 0.861140
+2024-04-16 01:57:59,232 - Model - INFO - data_scale_3: Test Instance Accuracy: 0.888979, Class Accuracy: 0.837733
+2024-04-16 01:58:33,552 - Model - INFO - data_scale_4: Test Instance Accuracy: 0.888169, Class Accuracy: 0.835058
+2024-04-16 01:59:22,015 - Model - INFO - data_jitter_0: Test Instance Accuracy: 0.909643, Class Accuracy: 0.862378
+2024-04-16 02:00:22,451 - Model - INFO - data_jitter_1: Test Instance Accuracy: 0.870340, Class Accuracy: 0.807471
+2024-04-16 02:01:38,668 - Model - INFO - data_jitter_2: Test Instance Accuracy: 0.804295, Class Accuracy: 0.731331
+2024-04-16 02:02:55,229 - Model - INFO - data_jitter_3: Test Instance Accuracy: 0.688412, Class Accuracy: 0.608430
+2024-04-16 02:04:21,628 - Model - INFO - data_jitter_4: Test Instance Accuracy: 0.531605, Class Accuracy: 0.434023
+2024-04-16 02:05:59,789 - Model - INFO - data_dropout_global_0: Test Instance Accuracy: 0.917342, Class Accuracy: 0.879047
+2024-04-16 02:07:49,266 - Model - INFO - data_dropout_global_1: Test Instance Accuracy: 0.910454, Class Accuracy: 0.871884
+2024-04-16 02:09:37,133 - Model - INFO - data_dropout_global_2: Test Instance Accuracy: 0.909643, Class Accuracy: 0.873343
+2024-04-16 02:11:27,350 - Model - INFO - data_dropout_local_0: Test Instance Accuracy: 0.908023, Class Accuracy: 0.866349
+2024-04-16 02:13:12,994 - Model - INFO - data_dropout_local_1: Test Instance Accuracy: 0.878849, Class Accuracy: 0.842471
+2024-04-16 02:15:03,315 - Model - INFO - data_dropout_local_2: Test Instance Accuracy: 0.842788, Class Accuracy: 0.802709
+2024-04-16 02:16:54,154 - Model - INFO - data_dropout_local_3: Test Instance Accuracy: 0.773501, Class Accuracy: 0.719895
+2024-04-16 02:18:44,615 - Model - INFO - data_dropout_local_4: Test Instance Accuracy: 0.673420, Class Accuracy: 0.623593
+2024-04-16 02:20:40,413 - Model - INFO - data_add_global_0: Test Instance Accuracy: 0.785251, Class Accuracy: 0.742587
+2024-04-16 02:22:28,993 - Model - INFO - data_add_global_1: Test Instance Accuracy: 0.688817, Class Accuracy: 0.625198
+2024-04-16 02:24:07,071 - Model - INFO - data_add_global_2: Test Instance Accuracy: 0.572123, Class Accuracy: 0.496267
+2024-04-16 02:25:44,699 - Model - INFO - data_add_global_3: Test Instance Accuracy: 0.453404, Class Accuracy: 0.384628
+2024-04-16 02:27:18,725 - Model - INFO - data_add_global_4: Test Instance Accuracy: 0.370340, Class Accuracy: 0.313599
+2024-04-16 02:28:52,478 - Model - INFO - data_add_local_0: Test Instance Accuracy: 0.756078, Class Accuracy: 0.683052
+2024-04-16 02:30:26,681 - Model - INFO - data_add_local_1: Test Instance Accuracy: 0.693274, Class Accuracy: 0.619058
+2024-04-16 02:32:06,529 - Model - INFO - data_add_local_2: Test Instance Accuracy: 0.643031, Class Accuracy: 0.556238
+2024-04-16 02:33:48,631 - Model - INFO - data_add_local_3: Test Instance Accuracy: 0.629660, Class Accuracy: 0.540436
+2024-04-16 02:35:22,680 - Model - INFO - data_add_local_4: Test Instance Accuracy: 0.599271, Class Accuracy: 0.503453
+2024-04-16 02:36:49,043 - Model - INFO - data_rotate_0: Test Instance Accuracy: 0.914911, Class Accuracy: 0.873628
+2024-04-16 02:38:15,670 - Model - INFO - data_rotate_1: Test Instance Accuracy: 0.890194, Class Accuracy: 0.847936
+2024-04-16 02:39:41,624 - Model - INFO - data_rotate_2: Test Instance Accuracy: 0.817666, Class Accuracy: 0.772337
+2024-04-16 02:41:08,531 - Model - INFO - data_rotate_3: Test Instance Accuracy: 0.701783, Class Accuracy: 0.660302
+2024-04-16 02:42:35,502 - Model - INFO - data_rotate_4: Test Instance Accuracy: 0.552674, Class Accuracy: 0.512837
+2024-04-16 02:44:03,316 - Model - INFO - data_clean: ,Test Instance Accuracy: 0.917747, Class Accuracy: 0.874297

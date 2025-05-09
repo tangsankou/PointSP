@@ -1,0 +1,1 @@
+Model: pointnet DataSet: OmniMN40 use_upsample: no sample_type: no Acc: 0.4558011049723757 Class Acc: nan

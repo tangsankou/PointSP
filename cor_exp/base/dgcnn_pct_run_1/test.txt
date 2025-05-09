@@ -1,0 +1,5 @@
+Model: pct Corruption: uniform Severity: 1 Acc: 0.9290923824959482 Class Acc: 0.9033662790697674
+Model: pct Acc: 0.9290923824959482 Class Acc: 0.9033662790697674
+Model: pct DataSet: modelnet40_dgcnn Acc: 0.9290923824959482 Class Acc: 0.9033662790697674
+Model: pct DataSet: modelnet40_dgcnn Acc: 0.9290923824959482 Class Acc: 0.9033662790697674
+Model: pct Corruption: uniform Severity: 1 Acc: 0.9177471636952999 Class Acc: 0.8880813953488371

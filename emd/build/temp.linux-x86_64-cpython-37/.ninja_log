@@ -1,0 +1,3 @@
+# ninja log v5
+1	34131	1695124445842514506	/home/user_tp/workspace/code/ModelNet40-C/emd/build/temp.linux-x86_64-cpython-37/emd.o	a58a53661bc6e9b2
+1	79359	1695124491089625565	/home/user_tp/workspace/code/ModelNet40-C/emd/build/temp.linux-x86_64-cpython-37/emd_cuda.o	3ae34a98d9a2c5c5

@@ -1,0 +1,1 @@
+Model: pct DataSet: OmniMN40 use_upsample: no sample_type: fps Acc: 0.4447513812154696 Class Acc: nan

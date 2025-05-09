@@ -1,0 +1,3 @@
+Model: pointnet2 DataSet: modelnet40_dgcnn Acc: 0.916936790923825 Class Acc: 0.882
+Model: pointnet2 DataSet: modelnet40_pn2 Acc: 0.916936790923825 Class Acc: 0.882
+Model: pointnet2 DataSet: modelnet40_pn2 use_upsample: r_rwup sample_type: fps Acc: 0.916936790923825 Class Acc: 0.882

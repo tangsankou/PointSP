@@ -1,0 +1,5 @@
+Model: pct DataSet: modelnet40_dgcnn Acc: 0.9149108589951378 Class Acc: 0.8780000000000001
+Model: pct DataSet: modelnet40_dgcnn Acc: 0.9141004862236629 Class Acc: 0.8768720930232557
+Model: pct DataSet: modelnet40_dgcnn Acc: 0.9153160453808752 Class Acc: 0.8782093023255815
+Model: pct DataSet: modelnet40_dgcnn Acc: 0.9153160453808752 Class Acc: 0.8779999999999999
+Model: pct DataSet: modelnet40_dgcnn Acc: 0.9149108589951378 Class Acc: 0.8781279069767443

@@ -1,0 +1,2 @@
+Model: dgcnn DataSet: modelnet40_dgcnn use_upsample: no sample_type: fps Acc: 0.9262560777957861 Class Acc: 0.8975406976744186
+Model: dgcnn DataSet: modelnet40_dgcnn use_upsample: no sample_type: fps Acc: 0.9262560777957861 Class Acc: 0.8975406976744186

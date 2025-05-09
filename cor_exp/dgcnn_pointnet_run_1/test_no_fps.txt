@@ -1,0 +1,1 @@
+Model: pointnet DataSet: modelnet40_dgcnn use_upsample: no sample_type: fps Acc: 0.906807131280389 Class Acc: 0.8654127906976743

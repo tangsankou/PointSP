@@ -1,0 +1,1 @@
+Model: simpleview DataSet: modelnet40_dgcnn use_upsample: no sample_type: fps Acc: 0.9388168557536467 Class Acc: 0.9184011627906976

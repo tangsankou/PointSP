@@ -1,0 +1,1 @@
+Model: rscnn DataSet: modelnet40_dgcnn use_upsample: no sample_type: fps Acc: 0.9230145867098866 Class Acc: 0.8897383720930232
