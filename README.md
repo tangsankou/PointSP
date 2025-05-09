@@ -1,4 +1,5 @@
-This repo contains Pytorch implementation for the paper [Enhancing Sampling Protocol for Point Cloud Classification Against Corruptions](IJCAI 2025)(https://arxiv.org/abs/2408.12062). This codebase is based on [ModelNet40-C](https://github.com/jiachens/ModelNet40-C), and we thank the authors for their great contributions.
+# Enhancing Sampling Protocol for Point Cloud Classification Against Corruptions
+This repo contains Pytorch implementation for the paper [Enhancing Sampling Protocol for Point Cloud Classification Against Corruptions](https://arxiv.org/abs/2408.12062)(IJCAI 2025). This codebase is based on [ModelNet40-C](https://github.com/jiachens/ModelNet40-C), and we thank the authors for their great contributions.
 
 ## PointSP
 ![image](https://github.com/tangsankou/PointSP/blob/main/img/main.jpg)
