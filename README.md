@@ -1,16 +1,20 @@
 This repo contains Pytorch implementation for the paper [Enhancing Sampling Protocol for Point Cloud Classification Against Corruptions](IJCAI 2025)(https://arxiv.org/abs/2408.12062). This codebase is based on [ModelNet40-C](https://github.com/jiachens/ModelNet40-C), and we thank the authors for their great contributions.
 
-#### PointSP
-![image](https://github.com/tangsankou/PointSP/img/yh-main.pdf)
-##Overview
-Models: PointNet, PointNet++, PCT, GDANet, CurveNet
-Training Dataset: ModelNet40
-Test Datasets:
+## PointSP
+![image](https://github.com/tangsankou/PointSP/img/main.jpg)
+## Overview
+#### Models: 
+PointNet, PointNet++, PCT, GDANet, CurveNet
+#### Training Dataset: 
+ModelNet40
+#### Test Datasets:
 ModelNet40-C (https://github.com/jiachens/ModelNet40-C): introduces 15 corruption types (occlusion, noise, etc.), each with 5 severity levels, applied to ModelNet40. 
+
 PointCloud-C (https://github.com/ldkong1205/PointCloud-C): features 7 real-world inspired corruptions (each with 5 levels) on the same data. 
+
 OmniObject-C (https://github.com/omniobject3d/OmniObject3D): applies PointCloud-C's 7 corruption types (5 levels each) to OmniObject3D classes matching ModelNet40 categories.
 
-#### Getting Started
+## Getting Started
 
 First clone the repository. We would refer to the directory containing the code as `PointSP`.
 
@@ -18,8 +22,8 @@ First clone the repository. We would refer to the directory containing the code 
 git clone --recurse-submodules git@github.com:tangsankou/PointSP.git
 ```
 
-#### Requirements
-h5py==2.10.0
+## Requirements
+```h5py==2.10.0
 progressbar2==3.20.0
 tensorboardX==2.0
 torch==2.0.1 
@@ -31,16 +35,17 @@ python==3.8
 CUDA >=11.7, 
 CuDNN 
 GCC
+```
 We recommend using these versions especially for installing [pointnet++ custom CUDA modules](https://github.com/erikwijmans/Pointnet2_PyTorch/tree/22e8cf527b696b63b66f3873d80ae5f93744bdef).
 
-#### Install
+## Install
 ```
-conda create --name modelnetc python=3.8
+conda create --name pointsp python=3.8
 conda activate pointsp
 pip install -r requirements.txt
 ```
 
-For PointNet++, we need to install custom CUDA modules. Make sure you have access to a GPU during this step. You might need to set the appropriate `TORCH_CUDA_ARCH_LIST` environment variable depending on your GPU model. The following command should work for most cases `export TORCH_CUDA_ARCH_LIST="6.0;6.1;6.2;7.0;7.5"`. However, if the install fails, check if `TORCH_CUDA_ARCH_LIST` is correctly set. More details could be found [here](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
+For PointNet++, we need to install custom CUDA modules. Make sure you have access to a GPU during this step. You might need to set the appropriate `TORCH_CUDA_ARCH_LIST` environment variable depending on your GPU model. The following command should work for most cases `export TORCH_CUDA_ARCH_LIST="6.0;6.1;6.2;7.0;7.5"`. However, if the install fails, check if `TORCH_CUDA_ARCH_LIST` is correctly set. 
 
 Third-party modules `pointnet2_pyt`, `PCT_Pytorch`, `emd`, and `PyGeM` can be installed by the following script.
 
@@ -48,9 +53,9 @@ Third-party modules `pointnet2_pyt`, `PCT_Pytorch`, `emd`, and `PyGeM` can be in
 ./setup.sh
 ```
  
-#### Usage
+## Usage
 This repository provides code for training and evaluating point cloud models (PointNet, PointNet++, PCT, GDANet, CurveNet) on ModelNet40 and testing their robustness against corruptions in ModelNet40-C, PointCloud-C, and  OmniObject-C datasets.To train or test any model, we use the `main.py` script. The format for running this script is as follows. 
-####Training
+## Training
 Train a model with upsampling and weighted sampling:
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py \
@@ -58,12 +63,11 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
   --use_upsample lgp_or_lgd \
   --sample_type wrs  
 ```
-The --use_upsample parameter is designed for the full-point sampling module in PointSP, while the --sample_type parameter controls the key-point sampling module in PointSP.
-<cfg_name>: Config file (e.g., dgcnn_pointnet2_run_1.yaml).
-lgp_or_lgb: Choose lgp (Local Geometric Propagation)_or_lgd (Local Global Downsampling).
-wrs: Weighted Random Sampling.
-
-#### Testing on Corrupted Datasets
+- The --use_upsample parameter is designed for the full-point sampling module in PointSP, while the --sample_type parameter controls the key-point sampling module in PointSP.
+- <cfg_name>: Config file (e.g., dgcnn_pointnet2_run_1.yaml).
+- lgp_or_lgb: Choose lgp (Local Geometric Propagation)_or_lgd (Local Global Downsampling).
+- wrs: Weighted Random Sampling.
+## Testing on Corrupted Datasets
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py \
   --entry mnc \(pcc\ominc)
@@ -74,12 +78,12 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
   --severity 1 \
   --corruption occlusion  
 ```
-clgp: Conditional Local Geometric Preserved.
-ffps: Filtered Furthest Point Sampling.
-severity: Corruption level (1–5 for ModelNet40-C and 0-4 for PointCloud-C、 OmniObject-C).
-corruption: Type (occlusion etc.).
+- clgp: Conditional Local Geometric Preserved.
+- ffps: Filtered Furthest Point Sampling.
+- severity: Corruption level (1–5 for ModelNet40-C and 0-4 for PointCloud-C、 OmniObject-C).
+- corruption: Type (occlusion etc.).
 
-#### Citation
+## Citation
 Please cite our paper and ModelNet40-C if you find our work useful in your research. Thank you!
 ```
 @article{Li2025enhancing,
