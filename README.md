@@ -9,11 +9,9 @@ PointNet, PointNet++, PCT, GDANet, CurveNet
 #### Training Dataset: 
 ModelNet40
 #### Test Datasets:
-ModelNet40-C (https://github.com/jiachens/ModelNet40-C): introduces 15 corruption types (occlusion, noise, etc.), each with 5 severity levels, applied to ModelNet40. 
-
-PointCloud-C (https://github.com/ldkong1205/PointCloud-C): features 7 real-world inspired corruptions (each with 5 levels) on the same data. 
-
-OmniObject-C (https://github.com/omniobject3d/OmniObject3D): applies PointCloud-C's 7 corruption types (5 levels each) to OmniObject3D classes matching ModelNet40 categories.
+- ModelNet40-C (https://github.com/jiachens/ModelNet40-C): introduces 15 corruption types (occlusion, noise, etc.), each with 5 severity levels, applied to ModelNet40. 
+- PointCloud-C (https://github.com/ldkong1205/PointCloud-C): features 7 real-world inspired corruptions (each with 5 levels) on the same data. 
+- OmniObject-C (https://github.com/omniobject3d/OmniObject3D): applies PointCloud-C's 7 corruption types (5 levels each) to OmniObject3D classes matching ModelNet40 categories.
 
 ## Getting Started
 
